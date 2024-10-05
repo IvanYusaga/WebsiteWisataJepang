@@ -42,32 +42,6 @@
     font-size: 1rem;
 }
 
-.btn {
-    background-color: rgb(226, 177, 212);
-}
-
-.gallery img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.gallery .caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.gallery-item {
-    position: relative;
-}
-
 .card-img-top {
     height: 200px;
     object-fit: cover;
@@ -107,7 +81,30 @@
 }
 
 .btn {
+    background-color: rgb(226, 177, 212);
     margin-top: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.gallery-item {
+    position: relative;
 }
 
 footer {
